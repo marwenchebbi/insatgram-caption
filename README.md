@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 Instagram Caption Generator
 
-## Getting Started
+A modern web application that uses AI to generate engaging Instagram captions for your photos. Built with Next.js and Google's Gemini AI.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+## ✨ Features
+
+- 🖼️ Drag and drop image upload
+- 🤖 AI-powered caption generation
+- 🏷️ Automatic hashtag suggestions
+- 📱 Responsive design
+- 🌓 Dark mode support
+- 📋 One-click caption copying
+
+## 🚀 Getting Started
+
+URL : [URL](https://insatgram-caption.vercel.app/)
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- A Gemini API key
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/vibe_coding.git
+cd vibe_coding
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create a `.env.local` file in the root directory and add your Gemini API key:
+```env
+NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open [http://localhost:3001](http://localhost:3001) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Google Gemini AI](https://deepmind.google/technologies/gemini/) - AI caption generation
+- [React Icons](https://react-icons.github.io/react-icons/) - UI icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Usage
 
-## Deploy on Vercel
+1. Open the application in your browser
+2. Drag and drop an image or click to select one
+3. Wait for the AI to generate a caption
+4. Click "Copy Caption" to copy it to your clipboard
+5. Paste the caption in your Instagram post
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Features in Detail
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Image Upload
+- Supports JPG, PNG, and WEBP formats
+- Visual feedback during drag and drop
+- Loading animation while processing
+
+### Caption Generation
+- AI-powered creative captions
+- Relevant hashtag suggestions
+- Maintains brand voice and style
+
+### User Interface
+- Modern, clean design
+- Responsive layout for all devices
+- Dark mode support
+- Intuitive user experience
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Google Gemini AI for the caption generation
+- Next.js team for the amazing framework
+- The open-source community for inspiration
